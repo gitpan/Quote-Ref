@@ -4,11 +4,12 @@ author:
   - 'Lukas Mai <l.mai@web.de>'
 build_requires:
   Test::More: 0
+  charnames: 0
+  if: 0
   strict: 0
-configure_requires:
-  ExtUtils::MakeMaker: 6.56
+  utf8: 0
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.130880'
+generated_by: 'ExtUtils::MakeMaker version 6.68, CPAN::Meta::Converter version 2.131560'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,7 +22,8 @@ no_index:
 requires:
   Carp: 0
   XSLoader: 0
-  perl: 5.012000
+  perl: 5.014000
   warnings: 0
-resources: {}
-version: 0.01
+resources:
+  repository: git://github.com/mauke/Quote-Ref.git
+version: 0.02

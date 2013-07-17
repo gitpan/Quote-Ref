@@ -4,7 +4,7 @@
       "Lukas Mai <l.mai@web.de>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.130880",
+   "generated_by" : "ExtUtils::MakeMaker version 6.68, CPAN::Meta::Converter version 2.131560",
    "license" : [
       "perl_5"
    ],
@@ -21,26 +21,33 @@
    },
    "prereqs" : {
       "build" : {
-         "requires" : {
-            "Test::More" : "0",
-            "strict" : "0"
-         }
-      },
-      "configure" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "6.56"
-         }
+         "requires" : {}
       },
       "runtime" : {
          "requires" : {
             "Carp" : "0",
             "XSLoader" : "0",
-            "perl" : "5.012000",
+            "perl" : "5.014000",
             "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0",
+            "charnames" : "0",
+            "if" : "0",
+            "strict" : "0",
+            "utf8" : "0"
          }
       }
    },
    "release_status" : "stable",
-   "resources" : {},
-   "version" : "0.01"
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/mauke/Quote-Ref.git",
+         "web" : "https://github.com/mauke/Quote-Ref"
+      }
+   },
+   "version" : "0.02"
 }
